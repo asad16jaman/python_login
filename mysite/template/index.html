@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>it is index2.html page </h1>
+    <a href="{% url 'logoutPage' %}">logout</a>
+
+
+    {% if data.is_super %}
+        <h1>you are super user </h1>
+        <p>hellow world i am supper user i have done all work which is posible for me </p>
+    {% else %}
+        <h1>not supper user </h1>
+        <p>hellow world i am not supper user skslk skdl jdkdk ks d djdkwe eijw skdwiep  </p>
+    {% endif %}
+
+</body>
+</html>
